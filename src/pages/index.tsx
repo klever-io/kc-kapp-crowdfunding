@@ -128,16 +128,14 @@ export const getServerSideProps = (async context => {
       },
     }
   }
-
   const decodedAddresses = abiDecoder.decodeList(
     addressRes.data.data,
-    'List<Address>',
+    'Address',
     abi,
   )
-
   const decodedCrowdfundings = abiDecoder.decodeList(
     res.data.data,
-    'List<CrowdfundingData>',
+    'CrowdfundingData',
     abi,
   )
 
