@@ -1278,20 +1278,19 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@klever/kleverweb@^1.2.2":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@klever/kleverweb/-/kleverweb-1.2.2.tgz#ce00d43034ffce6deed21af6b7508189bcb166d9"
-  integrity sha512-uE90qJmi9jSSA6bvnjKtlFXv7juBTvvIc1Qzf8TgdSpj+U7KFtAR+ZD14oZAt4sO20kmJi1EgYc4reXRaum0GQ==
-  dependencies:
-    "@protobuf-ts/plugin" "^2.7.0"
+"@klever/kleverweb@^1.4.0":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@klever/kleverweb/-/kleverweb-1.4.2.tgz#c876eaaee62d5a8ebda494f2634042d2c794aedf"
+  integrity sha512-gC9NVDGo3OlXSaaCJGABY1EfPXLgUF5pPnyBNXct0KhWK+udldw0/ahl72qP11YyQOvvjiwXDXJ/32zXca9o1A==
 
-"@klever/sdk-web@^1.1.6":
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/@klever/sdk-web/-/sdk-web-1.1.6.tgz#38c8f2c71bacf49ba83966a2202fd9ba4308c77d"
-  integrity sha512-Ufgrddk3MED+//9ryUizMtko0pz5GGFH9Xeodb/N52WMefYfflYbI3/d4mcP7DaNhUSKVE5EKEMGK9K1Oy7N4A==
+"@klever/sdk-web@^1.4.3":
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/@klever/sdk-web/-/sdk-web-1.4.3.tgz#c6cedfca5f8c187c0fb8cd2916ae928624bbf29d"
+  integrity sha512-ZxrQrmZkjFoESTRzR1MdlFgPqYgMDS7IycHPm4+bSIBbFce+G0YCoeEZ1VjG3JSdDGclzNaXoQAlGY7ZSbowAw==
   dependencies:
-    "@klever/kleverweb" "^1.2.2"
+    "@klever/kleverweb" "^1.4.0"
     bech32 "^2.0.0"
+    buffer "^6.0.3"
 
 "@mui/base@5.0.0-beta.17":
   version "5.0.0-beta.17"
@@ -1471,42 +1470,6 @@
   version "2.11.8"
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.8.tgz#6b79032e760a0899cd4204710beede972a3a185f"
   integrity sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==
-
-"@protobuf-ts/plugin-framework@^2.9.3":
-  version "2.9.3"
-  resolved "https://registry.yarnpkg.com/@protobuf-ts/plugin-framework/-/plugin-framework-2.9.3.tgz#b4af125a5444a8377d27d99bb7c0214cbf0bbfdc"
-  integrity sha512-iqdkhAu7fGPvBCVOoAEEFJ1/oaGIBoNIMgSv2WonTNJVHxv5FvvAfWFn6nG/eta34fHRZT38ZXTaYcMUkv8AiQ==
-  dependencies:
-    "@protobuf-ts/runtime" "^2.9.3"
-    typescript "^3.9"
-
-"@protobuf-ts/plugin@^2.7.0":
-  version "2.9.3"
-  resolved "https://registry.yarnpkg.com/@protobuf-ts/plugin/-/plugin-2.9.3.tgz#4ea87316a37da421e26d500e846ffe571d6418e6"
-  integrity sha512-tHYACv+nnIV2eoiMxeZhrgMqGiUktzUzrhfgnROg/rr8TecPLp9v5/yqNibN+bad5k7d57aqlTuQKhFl+J4W/g==
-  dependencies:
-    "@protobuf-ts/plugin-framework" "^2.9.3"
-    "@protobuf-ts/protoc" "^2.9.3"
-    "@protobuf-ts/runtime" "^2.9.3"
-    "@protobuf-ts/runtime-rpc" "^2.9.3"
-    typescript "^3.9"
-
-"@protobuf-ts/protoc@^2.9.3":
-  version "2.9.3"
-  resolved "https://registry.yarnpkg.com/@protobuf-ts/protoc/-/protoc-2.9.3.tgz#d2fb66b3482b817554275fb20e9dd0e6c3c3e704"
-  integrity sha512-TJ0Ycx/CIBqpB4wpKt6K05kjXj6zv36s/qpdCT/wdJBhpayOVBqLF5NpLp3WIiw1PmIxvqalB6QHKjvnLzGKLA==
-
-"@protobuf-ts/runtime-rpc@^2.9.3":
-  version "2.9.3"
-  resolved "https://registry.yarnpkg.com/@protobuf-ts/runtime-rpc/-/runtime-rpc-2.9.3.tgz#7316373f2ffc2b5ab4c7e0c1ca0cad0a3c92585d"
-  integrity sha512-WelHpctvZeG8yhbb7tnsrLzotq9xjMCXuGuhJ8qMyEdNoBBEodbXseofAYFTebo2/PN2LzyEq3X6vwr5f8jqTA==
-  dependencies:
-    "@protobuf-ts/runtime" "^2.9.3"
-
-"@protobuf-ts/runtime@^2.9.3":
-  version "2.9.3"
-  resolved "https://registry.yarnpkg.com/@protobuf-ts/runtime/-/runtime-2.9.3.tgz#b906223debaf42c9bd281e985a9f5652729153a4"
-  integrity sha512-nivzCpg/qYD0RX2OmHOahJALb8ndjGmUhNBcTJ0BbXoqKwCSM6vYA+vegzS3rhuaPgbyC7Ec8idlnizzUfIRuw==
 
 "@rushstack/eslint-patch@^1.3.3":
   version "1.5.0"
@@ -1849,6 +1812,11 @@ balanced-match@^1.0.0:
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
   integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
 
+base64-js@^1.3.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
+  integrity sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==
+
 bech32@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/bech32/-/bech32-2.0.0.tgz#078d3686535075c8c79709f054b1b226a133b355"
@@ -1883,6 +1851,14 @@ browserslist@^4.21.10, browserslist@^4.21.9:
     electron-to-chromium "^1.4.526"
     node-releases "^2.0.13"
     update-browserslist-db "^1.0.13"
+
+buffer@^6.0.3:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/buffer/-/buffer-6.0.3.tgz#2ace578459cc8fbe2a70aaa8f52ee63b6a74c6c6"
+  integrity sha512-FTiCpNxtwiZZHEZbcbTIcZjERVICn9yq/pDFkTl95/AxzD1naBctN7YO68riM/gLSDY7sdrMby8hofADYuuqOA==
+  dependencies:
+    base64-js "^1.3.1"
+    ieee754 "^1.2.1"
 
 busboy@1.6.0:
   version "1.6.0"
@@ -2759,6 +2735,11 @@ hoist-non-react-statics@^3.3.0, hoist-non-react-statics@^3.3.1:
   integrity sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
   dependencies:
     react-is "^16.7.0"
+
+ieee754@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
+  integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
 
 ignore@^5.2.0:
   version "5.2.4"
@@ -3918,11 +3899,6 @@ typescript@5.2.2:
   version "5.2.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.2.2.tgz#5ebb5e5a5b75f085f22bc3f8460fba308310fa78"
   integrity sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==
-
-typescript@^3.9:
-  version "3.9.10"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.10.tgz#70f3910ac7a51ed6bef79da7800690b19bf778b8"
-  integrity sha512-w6fIxVE/H1PkLKcCPsFqKE7Kv7QUwhU8qQY2MueZXWx5cPZdwFupLgKK3vntcK98BtNHZtAF4LA/yl2a7k8R6Q==
 
 unbox-primitive@^1.0.2:
   version "1.0.2"

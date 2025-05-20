@@ -96,7 +96,7 @@ export const getServerSideProps = (async context => {
 
   const decodedCrowdfundings = abiDecoder.decodeList(
     respJson.data.data,
-    'List<CrowdfundingData>',
+    'CrowdfundingData',
     abi,
   )
 
